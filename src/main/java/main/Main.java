@@ -9,7 +9,7 @@ public class Main {
         try (var c = new AnnotationConfigApplicationContext(ProjectConfig.class)) {
 
             ProductService p = c.getBean(ProductService.class);
-            p.addOneProduct();
+            p.addTenProduct();
 
         }
     }
